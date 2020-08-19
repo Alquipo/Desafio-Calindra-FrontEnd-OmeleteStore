@@ -10,6 +10,7 @@ const Products = ({ items, isLoading }) => {
     <Container>
       {items.map((item) => (
         <a
+          target="__blank"
           key={item.map.id}
           href={`https://store.omelete.com.br/${item.map.uri}`}
         >

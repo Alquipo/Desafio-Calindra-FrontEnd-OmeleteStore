@@ -8,8 +8,8 @@ const Search = ({ getQuery }) => {
 
   const onChange = useCallback(
     (q) => {
-      setText(q);
       getQuery(q);
+      setText(q);
     },
     [getQuery]
   );

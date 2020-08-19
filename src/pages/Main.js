@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import api from "../services/api";
 import Search from "../components/Search";
 import Products from "../components/Products";
@@ -15,13 +15,15 @@ const Main = () => {
 
         setItems(response.data.items);
         setIsLoading(false);
-      } else {
+      } else if (query.length === 0) {
         setItems([]);
         setQuery("camiseta");
       }
     };
     fetchItems();
   }, [query]);
+
+  console.log(query);
 
   return (
     <>
