@@ -19,11 +19,11 @@ export const ProductCard = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 270px;
-  height: 500px;
+  height: 400px;
   border: 1px solid #eee;
   margin: 10px;
 
-  border-radius: 5px;
+  border-radius: 10px;
 
   h3 {
     margin-top: 15px;
@@ -36,6 +36,10 @@ export const ProductCard = styled.div`
   h1 {
     margin-bottom: 25px;
     color: #ffbe00;
+  }
+
+  &:hover {
+    border-color: #ffbe00;
   }
 `;
 

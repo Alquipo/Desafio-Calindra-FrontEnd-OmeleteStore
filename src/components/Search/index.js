@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import omeletLogo from "../../assets/omeletelogo.svg";
 
-import { SearchContainer, SearchInput, Header } from "./styles";
+import { SearchContainer, SearchInput, Header, Logo } from "./styles";
 
 const Search = ({ getQuery }) => {
   const [text, setText] = useState("");
@@ -14,6 +15,7 @@ const Search = ({ getQuery }) => {
     <>
       <Header>
         <SearchContainer>
+          <Logo src={omeletLogo} />
           <form>
             <SearchInput
               type="text"
