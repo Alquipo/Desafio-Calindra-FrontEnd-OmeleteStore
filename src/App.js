@@ -1,15 +1,15 @@
-import React from "react";
-import Main from "./pages/Main";
+import React from 'react';
+import Main from './pages/Main';
 
-import GlobalStyle from "./styles/global";
+import GlobalStyle from './styles/global';
 
-function App() {
+const App = () => {
   return (
     <>
       <Main />
       <GlobalStyle />
     </>
   );
-}
+};
 
 export default App;
