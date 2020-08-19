@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import api from "../services/api";
 import Search from "../components/Search";
 import Products from "../components/Products";
@@ -22,8 +22,6 @@ const Main = () => {
     };
     fetchItems();
   }, [query]);
-
-  console.log(query);
 
   return (
     <>
