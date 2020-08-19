@@ -12,7 +12,7 @@ const Products = ({ items, isLoading }) => {
         <a
           target="__blank"
           key={item.map.id}
-          href={`https://store.omelete.com.br/${item.map.uri}`}
+          href={`https://store.omelete.com.br${item.map.uri}`}
         >
           <ProductCard>
             <h3>{item.map.name}</h3>
