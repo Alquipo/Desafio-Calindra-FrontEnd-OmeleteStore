@@ -26,7 +26,6 @@ const Main = () => {
   return (
     <>
       <Search getQuery={(q) => setQuery(q)} />
-
       <Products items={items} isLoading={isLoading} />
     </>
   );

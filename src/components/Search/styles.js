@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const Header = styled.div`
   display: flex;
   box-shadow: 1.2px 1.6px 5.8px 0.2px rgba(0, 0, 0, 0.19);
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    height: 150px;
+  }
 `;
 
 export const Logo = styled.img`
-  /* margin: 0 auto; */
-  flex-shrink: 0;
-  /* margin-left: 100px; */
+  flex-shrink: 1;
 `;
 
 export const SearchContainer = styled.div`
@@ -23,6 +26,18 @@ export const SearchContainer = styled.div`
   form {
     width: 60%;
     margin-left: 50px;
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+
+    form {
+      margin: 15px;
+    }
+
+    img {
+      margin-top: 50px;
+    }
   }
 `;
 
