@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { SearchContainer, SearchInput } from "./styles";
+import { SearchContainer, SearchInput, Header } from "./styles";
 
 const Search = ({ getQuery }) => {
   const [text, setText] = useState("");
@@ -11,18 +11,22 @@ const Search = ({ getQuery }) => {
   };
 
   return (
-    <SearchContainer>
-      <form>
-        <SearchInput
-          type="text"
-          className="form-control"
-          placeholder="Busque o produto"
-          value={text}
-          onChange={(e) => onChange(e.target.value)}
-          autoFocus
-        />
-      </form>
-    </SearchContainer>
+    <>
+      <Header>
+        <SearchContainer>
+          <form>
+            <SearchInput
+              type="text"
+              className="form-control"
+              placeholder="Busque o produto"
+              value={text}
+              onChange={(e) => onChange(e.target.value)}
+              autoFocus
+            />
+          </form>
+        </SearchContainer>
+      </Header>
+    </>
   );
 };
 

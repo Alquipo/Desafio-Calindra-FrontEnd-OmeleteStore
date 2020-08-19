@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
 
   a {
     text-decoration: none;
@@ -33,6 +35,7 @@ export const ProductCard = styled.div`
 
   h1 {
     margin-bottom: 25px;
+    color: #ffbe00;
   }
 `;
 
