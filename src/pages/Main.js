@@ -6,6 +6,7 @@ import Products from "../components/Products";
 const Main = () => {
   const [items, setItems] = useState([]);
   const [query, setQuery] = useState("camiseta");
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
