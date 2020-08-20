@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="GitHub" src=".github/banner.png" />
+    <img alt="GitHub" src=".github/banner.jpeg" />
 </p>
 
 <p align="center">
@@ -18,11 +18,9 @@
 
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
 
-<a href="https://app.netlify.com/sites/alquipo-github-clone/deploys">
-    <img alt="Netlify" src="https://api.netlify.com/api/v1/badges/92d16213-20ec-4f59-9bfa-14f7c78ef87a/deploy-status">
+<a href="https://app.netlify.com/sites/distracted-mahavira-883d26/deploys">
+    <img alt="Netlify" src="https://api.netlify.com/api/v1/badges/1dc338aa-4a1c-4c73-9713-74f85ff8ef5b/deploy-status">
 </a>
-
-</p>
 
 <p align="center">
 
@@ -31,29 +29,33 @@
   </a>
 </p>
 
-## 🚀 Sobre o Projeto
+## 🚀 Sobre o desafio
 
-Este é um projeto que consiste em criar um clone da página Web do GitHub que foi concebido a partir de uma aula on-line. O projeto foi desenvolvido no ReactJS junto com o TypeScript e outras ferramentas.
+Construir uma aplicação na linguagem que preferir e achar mais prático. Neste desafio não
+é preciso desenvolver um layout robusto, pode ser algo simples. A aplicação deverá ter um input de
+texto e um botão busca que ao ser clicado realizará uma busca de produto através do consumo da
+mesma api usada pelo autocomplete do site https://store.omelete.com.br . Você deverá analisar a
+resposta da API e construir uma view com a lista dos produtos retornados.
 
 ## 🎨 Layout
 
 <p align="center">
 
-  <img  alt="Original" title="Discord" src=".github/light.png"  width="500"/>
+  <img  alt="Original" title="Discord" src=".github/layout.png"  width="500"/>
   
-  <img  alt="Original" title="Discord" src=".github/dark.png"  width="500"/>
 </p>
 
 <div align="center">
 
-<button><a target="_blank" href="https://github-clone.alquipo.dev"><img alt="Demo" src=".github/netlify.svg" ></img></a></button>
+<button><a target="_blank" href="https://calindra-front1.alquipo.dev/"><img alt="Demo" src=".github/netlify.svg" ></img></a></button>
 
 </div>
 
 ## 🔨 Tecnologias:
 
-- [TypeScript][typescript]
 - [React JS][reactjs]
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
 
 ## 🚀 Como rodar este projeto
 
@@ -63,20 +65,20 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alquipo/React-Github-Clone
+$ git clone https://github.com/Alquipo/Desafio-Calindra-FrontEnd1
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd React-Github-Clone
+$ cd Desafio-Calindra-FrontEnd1
 ```
 
 ### 🧭 Rodando a aplicação web
 
 ```bash
 # Instale as dependências
-$ yarn
+$ npm install
 
 # Execute a Aplicação
-$ yarn start
+$ npm run start
 
 # O servidor inciará na porta:3000 - acesse http://localhost:3000
 ```
