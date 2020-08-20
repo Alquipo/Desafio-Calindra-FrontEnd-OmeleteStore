@@ -42,10 +42,3 @@ export const ProductCard = styled.div`
     border-color: #ffbe00;
   }
 `;
-
-// export const CardInner = styled.div`
-//   cursor: pointer;
-//   background-color: transparent;
-//   height: 300px;
-//   perspective: 1000px;
-// `;
