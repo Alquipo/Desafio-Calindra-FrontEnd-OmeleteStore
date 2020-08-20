@@ -4,21 +4,21 @@
 
 <p align="center">
     
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/Desafio-Calindra-FrontEnd1">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/Desafio-Calindra-FrontEnd-OmeleteStore">
 
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/Desafio-Calindra-FrontEnd1">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/Desafio-Calindra-FrontEnd-OmeleteStore">
 
 <a href="https://www.linkedin.com/in/alquiponeto/">
     <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-AlquipoNeto-blue">
 </a>
 
-<a href="https://github.com/Alquipo/Desafio-Calindra-FrontEnd1/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/Desafio-Calindra-FrontEnd1?color=blue">
+<a href="https://github.com/Alquipo/Desafio-Calindra-FrontEnd-OmeleteStore/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/Desafio-Calindra-FrontEnd-OmeleteStore?color=blue">
 </a>
 
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
 
-<a href="https://app.netlify.com/sites/distracted-mahavira-883d26/deploys">
+<a href="https://app.netlify.com/sites/omeletestore/deploys">
     <img alt="Netlify" src="https://api.netlify.com/api/v1/badges/1dc338aa-4a1c-4c73-9713-74f85ff8ef5b/deploy-status">
 </a>
 
@@ -65,10 +65,10 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alquipo/Desafio-Calindra-FrontEnd1
+$ git clone https://github.com/Alquipo/Desafio-Calindra-FrontEnd-OmeleteStore
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Desafio-Calindra-FrontEnd1
+$ cd Desafio-Calindra-FrontEnd-OmeleteStore
 ```
 
 ### 🧭 Rodando a aplicação web
