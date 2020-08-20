@@ -47,7 +47,7 @@ resposta da API e construir uma view com a lista dos produtos retornados.
 
 <div align="center">
 
-<button><a target="_blank" href="https://omeletestore.alquipo.dev/"><img alt="Demo" src=".github/netlify.svg" ></img></a></button>
+<button><a target="_blank" href="https://www.omeletestore.alquipo.dev/"><img alt="Demo" src=".github/netlify.svg" ></img></a></button>
 
 </div>
 
